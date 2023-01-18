@@ -31,12 +31,13 @@
             <input type="search" id="getInput" value="" class="form-control py-2" placeholder="Search City"
                 aria-label="Search City" aria-describedby="basic-addon1" />
             <div class="input-group-append">
-                <button id="btn2" class="btn btn-outline-primary" type="button"><i
+                <form action="/airq" method="post">
+               <button id="btn2" class="btn btn-outline-primary" type="submit"><i
                         class="medium material-icons">search</i></button>
+             </form>
             </div>
         </div>
-        <h3> Or </h3>
-        <button id="btn1" class="btn btn-outline-primary">Get Geolocation</button>
+        <!-- <button id="btn1" class="btn btn-outline-primary">Get Geolocation</button> -->
     </div>
     <div id="content"></div>
 </body>
