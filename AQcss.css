@@ -9,6 +9,10 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: 150rem;
+}
+h1{
+    font-weight: 800;
 }
 .search {
   display: flex;
