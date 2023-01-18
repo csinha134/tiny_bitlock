@@ -381,7 +381,7 @@ template {
   -webkit-appearance: none;
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: rgba(59, 32, 32, 0);
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -549,12 +549,12 @@ a {
 .btn-delete-flex {
   display: flex;
   justify-content: space-between;
-  background-color: #7477bf;
+  background-color: #0c92c3;
   border-radius: 0.4rem;
 }
 
 .btn-delete {
-  background-color: #7477bf;
+  background-color: #0c92c3;
   color: white;
   border: none;
   margin-right: 0.4rem;
@@ -602,30 +602,30 @@ a {
 
 .btn-send {
   padding: 1.4rem;
-  background-color: #7477bf;
+  background-color: #0c92c3;
   color: white;
   margin-top: 2.4rem;
   border-radius: 0.4rem;
   transition: all 0.1s ease-in-out;
 }
 .btn-send:hover {
-  background-color: #595eb8;
+  background-color:#0c92c3;
 }
 
 .btn-save {
   margin-right: 1.6rem;
-  background-color: #7477bf;
+  background-color:#0c92c3;
   color: white;
   margin-top: 2.4rem;
   border-radius: 0.4rem;
   transition: all 0.1s ease-in-out;
 }
 .btn-save:hover {
-  background-color: #595eb8;
+  background-color: #0e973e;
 }
 
 .btn-cancel {
-  background-color: #b2b2b2;
+  background-color: #0cc334;
   color: white;
   margin-top: 2.4rem;
   margin-left: 1.6rem;
@@ -692,7 +692,7 @@ a {
 .search-bottom:focus,
 .textarea:focus,
 .timezone:focus {
-  border: 0.2rem solid #7477bf;
+  border: 0.2rem solid #0c92c3;
   transition: all 0.4s;
 }
 
@@ -834,7 +834,7 @@ header {
   padding-top: 2.6rem;
   padding-bottom: 1.6rem;
   grid-area: header;
-  background-color: #7477bf;
+  background-color: #0c92c3;
 }
 @media (min-width: 768px) {
   header {
@@ -844,7 +844,7 @@ header {
 
 nav {
   grid-area: nav;
-  background-color: #4d4c72;
+  background-color: #0c92c3;
   position: -webkit-sticky;
   position: -moz-sticky;
   position: -ms-sticky;
@@ -1038,7 +1038,7 @@ GRID MAIN LAYOUT*
 }
 
 .logo {
-  width: 13rem;
+  width: 7rem;
   margin-right: auto;
   margin-bottom: 1rem;
 }
@@ -1180,7 +1180,7 @@ GRID MAIN LAYOUT*
 .sign {
   grid-area: sign;
   font-size: 2.2rem;
-  color: #7477bf;
+  color: #0c92c3;
   margin: 0;
   text-align: right;
 }
@@ -1379,7 +1379,7 @@ GRID MAIN LAYOUT*
 
 .widget-label {
   grid-area: label;
-  color: #7477bf;
+  color: #0c92c3;
 }
 
 .widget-stats {

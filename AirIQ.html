@@ -28,10 +28,18 @@
     <div class="main">
         <h1>Check Air Quality Near You.</h1>
         <div class="search">
-            <input type="search" id="getInput" value="" class="form-control py-2" placeholder="Search City"
-                aria-label="Search City" aria-describedby="basic-addon1" />
-            <div class="input-group-append">
-                <form action="/airq" method="post">
+            <form action="/airq" method="post">
+                <div class="input-group-append">
+                    <select id="getInput" name="city" aria-label="Search City" aria-describedby="basic-addon1" class="form-control py-2">
+                        <option value="Delhi">Delhi</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Amritsar">Amritsar</option>
+                        <option value="Chandigarh">Chandigarh</option>
+                        <option value="Amravati">Amravati</option>
+                        <option value="Banglore">Banglore</option>
+                      </select>
+            <!-- <input type="search" id="getInput" value="" class="form-control py-2" placeholder="Search City"
+                aria-label="Search City" aria-describedby="basic-addon1" /> -->
                <button id="btn2" class="btn btn-outline-primary" type="submit"><i
                         class="medium material-icons">search</i></button>
              </form>
